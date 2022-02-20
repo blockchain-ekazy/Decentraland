@@ -1,0 +1,241 @@
+.rootdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 15px 5px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  z-index: 2;
+  position: relative;
+}
+.mint-btn {
+  border: 1px solid white;
+  color: rgb(255, 255, 255);
+  background-color: #ec8a3a;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-family: Montserrat;
+  margin: 0 5px;
+  border: none;
+}
+/* .mint-btn:hover {
+  background-color: white;
+  color: black;
+} */
+.supplytext {
+  color: #fff;
+  font-family: Montserrat;
+  text-align: center;
+}
+body {
+  background-color: #000 !important;
+}
+.mintwrap {
+  display: flex;
+}
+.minus,
+.plus {
+  font-size: 25px;
+  line-height: 0;
+  font-weight: 400;
+  width: 53px;
+  height: 53px;
+  padding: 0;
+  border-radius: 3px;
+  background-color: #ec8a3a !important;
+  border: none;
+  color: white !important;
+}
+.hero {
+  /* width: 100vw; */
+  min-height: 100vh;
+  background: url("./images/bg.webp");
+  background-size: cover;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  background-blend-mode: darken;
+  background-color: #000000c7;
+}
+.button-black {
+  border: none;
+  color: white;
+  background-color: #ec8a3a;
+  /* background-color: black; */
+  padding: 20px 40px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1em;
+  font-family: Montserrat;
+  display: block;
+  border-radius: 100px;
+}
+/* .button-black:hover {
+  color: black;
+  background-color: white;
+} */
+.container {
+  max-width: 1080px !important;
+}
+.headtext {
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #efefef;
+}
+.paratext {
+  color: #efefef;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.modelviewer {
+  width: 100% !important;
+  height: 550px !important;
+  margin-top: -120px;
+  /* margin-bottom: -35px; */
+  z-index: 1;
+}
+.mintingsection {
+  z-index: 3;
+  position: relative;
+}
+.mint-btn b {
+  font-weight: 900 !important;
+  font-size: 22px;
+}
+@media screen and (min-width: 768px) {
+  h1.text-md-left,
+  .paratext.text-md-left {
+    text-align: left !important;
+  }
+}
+.mintwrap {
+  display: flex;
+}
+.roadmap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* max-width: 578px; */
+  margin: auto;
+}
+.milestone h3 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+.milestone {
+  /* display: flex; */
+  font-weight: 500;
+  font-size: 20px;
+  /* max-width: 650px; */
+  margin: auto !important;
+}
+.milestone img {
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 50px;
+  max-width: 100%;
+  margin-top: 25px;
+}
+.mdiv {
+  flex: 1;
+  text-align: center;
+  width: 20px !important;
+  height: 20px;
+  border: 2px solid;
+  border-radius: 100px;
+  margin-top: 3px;
+}
+.mdev {
+  width: 1px;
+  height: 75%;
+  border-left: 2px solid #fff;
+  margin-top: 10px;
+}
+.mdate {
+  text-align: right;
+}
+.rightText {
+  text-align: right;
+}
+.milestone .col-1 {
+  padding: 0;
+}
+.herotext {
+  z-index: 3;
+}
+.roadcontainer {
+  background-image: url(./images/roadbg.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: #000c;
+}
+.faqs .accordion-item {
+  background: #fff2;
+  border-radius: 8px;
+}
+.faqs .accordion-header button {
+  background: #fff2;
+  color: white;
+}
+.faqs .accordion-header * {
+  color: white;
+}
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+.teamimg {
+  border-radius: 100%;
+  max-width: 100%;
+  width: 230px;
+  margin: auto;
+  display: block;
+}
+.faqs {
+  background-color: #fff2;
+}
+.footer {
+  background-image: url(./images/footer.png);
+  background-size: cover;
+  background-position: top center;
+  padding-top: 20px;
+}
+.footlogo {
+  width: 170px;
+}
+.footicon {
+  width: 50px;
+}
+.socials {
+  justify-content: center;
+}
+.footer small {
+  color: #fff9;
+}
+.text-right {
+  text-align: right;
+}
+.topleftlogo {
+  width: 140px;
+  margin: auto;
+  max-width: 100%;
+}
+.mynavbar {
+  background: #0000002b;
+  padding: 0;
+}
+.introrow {
+  max-width: 675px;
+}
+.faqsnap {
+  width: 100%;
+  margin-bottom: 20px;
+}

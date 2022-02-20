@@ -1,0 +1,33 @@
+<div className="row">
+    <div className="col-12 col-md-6 pt-3 herotext">
+        <h1 className="headtext text-md-left text-center">
+            WELCOME TO THE 3D DECENTRALAND PROPERTY
+        </h1>
+        <p className="paratext text-md-left text-center">
+        DECENTRALAND PROPERTY IS A 3D NFT Property Creator 2,000 3D NFTS MINTABLE ON OPENSEA using a Metamask or Trust wallet with polygon network enabled.
+        </p>
+    </div>
+    <div className="col col-md-6 col-sm-12">
+      <model-viewer src={modelfile} camera-controls auto-rotate class="modelviewer"></model-viewer>
+    </div>
+</div>
+
+
+
+<div className="col-sm-6 mb-5">
+    <button
+      className="mt-3 mint-btn mx-auto d-block mb-3"
+      onClick={() => {
+        connectWallet();
+      }}
+      >{connectedAccount}</button>
+      {purchased ? (
+        <h5 className="text-center">
+          <a className="text-white text-decoration-none" href="https://gateway.pinata.cloud/ipfs/QmVpjuxKbhJwbMF2xzUvAPPRaXyiBuqAaZrkkoSaN9c6Cz">Download Your Property File</a><br /><br />
+          <a className="text-white text-decoration-none" href="#">Download User Guide</a>
+        </h5>
+      ) : <h5 className="text-center text-white" >Your Purchase Property file will show here</h5>}
+  </div>
+
+
+  <button className="button-black mx-auto mt-5 mb-3">View on Opensea</button>
