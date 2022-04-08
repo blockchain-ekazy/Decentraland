@@ -1,5 +1,4 @@
-# ![Decentraland 3D property NFT](https://user-images.githubusercontent.com/100062048/155755732-fda052bb-6992-4747-ae26-0abed0a3920a.png)
-Getting Started with Create React App
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
